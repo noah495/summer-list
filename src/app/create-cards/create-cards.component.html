@@ -6,3 +6,45 @@
 <div>
     <input type="text" placeholder="Description" [(ngModel)]="desc">
 </div>
+
+<form name="newCard">
+<div>
+    <h2>Where</h2>
+    <input type="checkbox" value="inside" name="inside">
+    <label for="inside">Inside</label>
+
+    <input type="checkbox" value="outside" name="outside">
+    <label for="outside">Outside</label>
+</div>
+
+<div>
+    <h2>Who</h2>
+    <input type="checkbox" value="alone" name="alone">
+    <label for="alone">Alone</label>
+
+    <input type="checkbox" value="friends" name="friends">
+    <label for="friends">Friends</label>
+
+    <input type="checkbox" value="family" name="family">
+    <label for="family">Family</label>
+</div>
+
+<div>
+    <h2>Costs</h2>
+    <input type="checkbox" value="nothing" name="nothing">
+    <label for="nothing">Nothing</label>
+
+    <input type="checkbox" value="small" name="small">
+    <label for="small">Small</label>
+
+    <input type="checkbox" value="medium" name="medium">
+    <label for="medium">Middle</label>
+
+    <input type="checkbox" value="large" name="large">
+    <label for="large">Large</label>
+
+</div>
+
+
+<button>Create Card</button>
+</form>
